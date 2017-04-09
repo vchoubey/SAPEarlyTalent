@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  root 'counter#show'
+
+  get 'counter/edit'
+
+  get 'counter/tips'
+
+  get 'graphs/show'
+
+  get 'graphs/edit'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
